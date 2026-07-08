@@ -36,7 +36,7 @@ About **95% of shoppers never return after their first week.** Week-1 retention 
 - **Fix the view→cart step first.** With ~370,000 shoppers lost here, even a small improvement outweighs any checkout optimization. Strengthen product pages, make "Add to Cart" prominent, add recommendations.
 - **Lean into computer hardware.** Feature the categories and brands that already convert well; investigate (don't just advertise) the sub-1% lines.
 - **Prioritize the €200–500 range** in merchandising, where both conversion and volume are strong.
-- **Launch a week-1 win-back.** Because the biggest retention drop is between week 0 and week 1, capture emails at first visit and follow up within days. Fix retention before scaling acquisition — there's no value adding new visitors while 95% leak out.
+- **Launch a week-1 win-back.** Because the biggest retention drop is between week 0 and week 1, capture emails at first visit and follow up within days. Fix retention before scaling acquisition - there's no value adding new visitors while 95% leak out.
 
 ---
 
@@ -52,10 +52,10 @@ About **95% of shoppers never return after their first week.** Week-1 retention 
 
 ## Tools & Data
 
-- **PostgreSQL** — stored the ~885K events and ran all funnel and cohort SQL.
-- **Python (pandas, NumPy)** — reshaped the cohort data and computed retention rates.
-- **Power BI** — interactive dashboard (funnel, KPI cards, cohort heatmap, slicers).
-- **Data:** ["eCommerce events history in electronics store" (Kaggle, by mkechinov)](https://www.kaggle.com/datasets/mkechinov/ecommerce-events-history-in-electronics-store). Raw data not hosted here (see Kaggle link); each row is one event — a view, cart, or purchase.
+- **PostgreSQL** - stored the ~885K events and ran all funnel and cohort SQL.
+- **Python (pandas, NumPy)** - reshaped the cohort data and computed retention rates.
+- **Power BI** - interactive dashboard (funnel, KPI cards, cohort heatmap, slicers).
+- **Data:** ["eCommerce events history in electronics store" (Kaggle, by mkechinov)](https://www.kaggle.com/datasets/mkechinov/ecommerce-events-history-in-electronics-store). Raw data not hosted here (see Kaggle link); each row is one event - a view, cart, or purchase.
 
 ---
 
