@@ -42,10 +42,10 @@ About **95% of shoppers never return after their first week.** Week-1 retention 
 
 ## Dashboard
 
-### Overview — Funnel & Conversion
+### Overview - Funnel & Conversion
 ![Overview page](images/overview_page.png)
 
-### Retention — Weekly Cohorts
+### Retention - Weekly Cohorts
 ![Retention page](images/retention_page.png)
 
 ---
