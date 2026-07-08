@@ -1,4 +1,4 @@
-# Where Do Online Shoppers Drop Off — and Do Buyers Come Back?
+# Where Do Online Shoppers Drop Off - and Do Buyers Come Back?
 
 A product funnel and retention analysis of a real online electronics store (~885,000 events, Sep 2020 – Feb 2021), built end-to-end with SQL, Python, and Power BI.
 
@@ -21,7 +21,7 @@ Supporting questions:
 Only **9.08%** of shoppers who view a product ever add one to cart - about 370,000 people browse and leave. But once a product is in the cart, **57.65%** get purchased. The checkout experience is healthy; the problem is converting browsers into carters.
 
 **2. Conversion varies enormously by category and brand.**
-PC-component categories and brands (video cards, sapphire, msi, gigabyte) convert at ~12–16%, while several appliance/home lines convert below 1%. The store's real strength is computer hardware.
+PC-component categories and brands (video cards, sapphire, msi, gigabyte) convert at ~12-16%, while several appliance/home lines convert below 1%. The store's real strength is computer hardware.
 
 **3. Mid-priced products convert best.**
 The €200-500 price band converts at **7.09%**, well above the ~4-5% seen in every other band. Cheaper products do not convert better despite the lower commitment.
