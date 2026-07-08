@@ -18,7 +18,7 @@ Supporting questions:
 ## Key Findings
 
 **1. The biggest leak is at the very top of the funnel.**
-Only **9.08%** of shoppers who view a product ever add one to cart — about 370,000 people browse and leave. But once a product is in the cart, **57.65%** get purchased. The checkout experience is healthy; the problem is converting browsers into carters.
+Only **9.08%** of shoppers who view a product ever add one to cart - about 370,000 people browse and leave. But once a product is in the cart, **57.65%** get purchased. The checkout experience is healthy; the problem is converting browsers into carters.
 
 **2. Conversion varies enormously by category and brand.**
 PC-component categories and brands (video cards, sapphire, msi, gigabyte) convert at ~12–16%, while several appliance/home lines convert below 1%. The store's real strength is computer hardware.
@@ -61,7 +61,7 @@ About **95% of shoppers never return after their first week.** Week-1 retention 
 
 ## How It Was Built (Technical Notes)
 
-**Funnel (SQL).** Counted **distinct users** (not events) at each stage, so a shopper who viewed 40 products counts once, not 40 times — the honest way to measure people progressing through a funnel. Conversion rates and category/brand/price breakdowns were computed in PostgreSQL.
+**Funnel (SQL).** Counted **distinct users** (not events) at each stage, so a shopper who viewed 40 products counts once, not 40 times - the honest way to measure people progressing through a funnel. Conversion rates and category/brand/price breakdowns were computed in PostgreSQL.
 
 **Retention (SQL + Python — deliberately split).**
 - **SQL** did the heavy aggregation inside the database: it found each user's first week (`DATE_TRUNC`), tagged every event with weeks-since-first, and produced a small summary of unique users per (cohort, week). This shrinks 885K rows to ~276 before anything leaves the database.
@@ -70,7 +70,7 @@ About **95% of shoppers never return after their first week.** Week-1 retention 
 
 **Dashboard (Power BI).** The funnel and KPI cards use live DAX measures (`CALCULATE` + `DISTINCTCOUNT`) so they recalculate when slicers are applied; the retention heatmap uses conditional formatting driven by a measure to color cells by value.
 
-**Data verification.** Before analysis, the raw CSV was inspected with a Python script (`peek.py`) — checking column names, row count, and date range — to confirm the data spanned enough weeks for weekly cohorts rather than assuming it.
+**Data verification.** Before analysis, the raw CSV was inspected with a Python script (`peek.py`) - checking column names, row count, and date range - to confirm the data spanned enough weeks for weekly cohorts rather than assuming it.
 
 ---
 
