@@ -24,7 +24,7 @@ Only **9.08%** of shoppers who view a product ever add one to cart - about 370,0
 PC-component categories and brands (video cards, sapphire, msi, gigabyte) convert at ~12–16%, while several appliance/home lines convert below 1%. The store's real strength is computer hardware.
 
 **3. Mid-priced products convert best.**
-The €200–500 price band converts at **7.09%**, well above the ~4–5% seen in every other band. Cheaper products do not convert better despite the lower commitment.
+The €200-500 price band converts at **7.09%**, well above the ~4-5% seen in every other band. Cheaper products do not convert better despite the lower commitment.
 
 **4. Retention is a "leaky bucket."**
 About **95% of shoppers never return after their first week.** Week-1 retention sits at ~2.5–3.6% across every weekly cohort for five straight months, showing no improvement over time. A small loyal core (~0.2%) keeps returning for months.
