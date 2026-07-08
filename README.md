@@ -63,7 +63,7 @@ About **95% of shoppers never return after their first week.** Week-1 retention 
 
 **Funnel (SQL).** Counted **distinct users** (not events) at each stage, so a shopper who viewed 40 products counts once, not 40 times - the honest way to measure people progressing through a funnel. Conversion rates and category/brand/price breakdowns were computed in PostgreSQL.
 
-**Retention (SQL + Python — deliberately split).**
+**Retention (SQL + Python - deliberately split).**
 - **SQL** did the heavy aggregation inside the database: it found each user's first week (`DATE_TRUNC`), tagged every event with weeks-since-first, and produced a small summary of unique users per (cohort, week). This shrinks 885K rows to ~276 before anything leaves the database.
 - **Python (pandas/NumPy)** reshaped that small summary into a cohort matrix (`pivot_table`) and divided each row by its week-0 value to get retention percentages.
 - **Why split it this way:** the database handles scale efficiently; pivoting and row-wise division are cleaner in pandas. Right tool for each job.
@@ -81,5 +81,5 @@ About **95% of shoppers never return after their first week.** Week-1 retention 
 ├── python/      Python retention script + input/output CSVs
 ├── powerbi/     Power BI dashboard (.pbix)
 ├── images/      Dashboard screenshots
-└── data/        (DATA_SOURCE.md — raw data linked to Kaggle, not hosted)
+└── data/        (DATA_SOURCE.md - raw data linked to Kaggle, not hosted)
 ```
